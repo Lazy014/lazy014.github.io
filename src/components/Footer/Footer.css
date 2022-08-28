@@ -1,0 +1,32 @@
+.footer
+{
+    background-color: rgba(0, 0, 0, .75) !important;
+    background: transparent;
+    display: flex !important; 
+    flex-wrap: wrap  !important;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 20px 22px;
+    margin-top: 40px;
+}
+
+.footer_name
+{
+    color: white;
+}
+
+.footer_name> a{
+    color: #9c9c9c;
+    text-decoration: none;
+}
+
+.footer_copyright
+{
+    color: white;
+}
+
+.footer_copyright> a{
+    color: #9c9c9c;
+    text-decoration: none;
+}

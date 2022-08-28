@@ -1,0 +1,76 @@
+.profile{
+    background-color: rgba(0, 0, 0, .75);
+    /* background-color: transparent ; */
+    border-radius: 6px;
+    width: 100%;
+    display: inline-block;
+}
+
+.profile_name{
+    line-height: 18px;
+    padding: 20px;
+}
+
+.profile_name .name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.profile_name .title{
+    font-size: 15px;
+    color: #777;
+}
+
+.profile_image{
+    margin-top: -15px;
+    -webkit-clip-path: polygon(0 6%, 100% 0,100% 94%, 0% 100%);
+    clip-path: polygon(0 6%, 100% 0,100% 94%, 0% 100%);
+}
+
+.profile_image img{
+    width: 100%;
+}
+
+.profile_info{
+    top: 0;
+    left: 0;
+    margin: -70px 16.5px 40px;
+    margin-right: -10px !important;
+    margin-left: 6.5px;
+    margin-bottom: 40px!important;
+}
+
+.profile_info .timeline .timeline_content{
+    /* justify-content: center  !important; */
+    margin-top: 13px !important;
+    padding-top: 5px !important;
+    margin-left: -38px;
+}
+.timelineItem_txt{
+    font-size: 15px !important;
+    color: #787878;
+    font-weight: 400;
+    margin-top: -5px !important;
+    padding-top: 5px !important;
+}
+
+.timelineItem_txt>span{
+    /* color: black; */
+    color: white;
+    font-weight: bold;
+}
+
+.timelineItem_txt>a{
+    color: #787878 !important;
+    text-decoration: none;
+}
+
+.btn_container{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

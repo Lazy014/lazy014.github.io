@@ -1,0 +1,66 @@
+.header{
+    margin-bottom: 30px !important;
+    background-color: white;
+    padding: 0 20px 0 0 !important;
+    border-radius: 10px !important;
+    /* background-color: white !important;
+    opacity: .5 !important; */
+    box-shadow: 0px 0px 22px 0px black;
+    overflow: hidden;
+}
+
+.header_home{
+    background-color: var(--main-colour) !important;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-right: auto !important;
+    margin-left: 0px !important;
+    /* border-top-left-radius: 10px ;
+    border-bottom-left-radius: inherit ; */
+}
+
+.header_home > .MuiSvgIcon-root{
+    font-size: 30px !important;
+    color: black !important;
+}
+
+
+
+.header .header_nav{
+    padding: 0;
+    margin-right: 20px !important;
+    border-bottom-left-radius: inherit ;
+}
+.header .header_link{
+    font-size: 18px !important;
+    color: black !important;
+    font-weight: 500 !important;
+}
+
+.header .header_link:hover{
+    color: var(--main-colour) !important;
+    font-weight: bold !important;
+}
+
+
+.header .header_link_active{
+    font-size: 18px !important;
+    color: var(--main-colour) !important;
+    font-weight: bold !important;
+}
+
+
+.header_icons{
+    margin-right: 0px !important;
+    padding: 0;
+    margin-left: auto !important;
+}
+
+.header_icons > a > .MuiSvgIcon-root{
+    margin-right: 15px !important;
+    font-size: 25px !important;
+    color: black !important;
+}

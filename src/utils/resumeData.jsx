@@ -46,9 +46,11 @@ const resumeData ={
     projects :[
         {
             tag : 'React',
-            image: '',
+            image: 'https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/09/c3/99.jpg',
             title : 'p1',
             description : 'asd',
+            Languages: ['Javascript'],
+            Frameworks : ['React'],
             links : [
                 {link : 'https://www.google.com/', icon : <YouTube/>},
                 {link : 'https://www.google.com/', icon : <GitHub/>},
@@ -57,9 +59,11 @@ const resumeData ={
         },
         {
             tag : 'React',
-            image: '',
+            image: 'https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/09/c3/99.jpg',
             title : 'p2',
             description : 'asd',
+            Languages: ['Java'],
+            Frameworks : ['Node'],
             links : [
                 {link : 'https://www.google.com/', icon : <YouTube/>},
                 {link : 'https://www.google.com/', icon : <GitHub/>},
@@ -68,9 +72,11 @@ const resumeData ={
         },
         {
             tag : 'Python',
-            image: '',
+            image: 'https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/09/c3/99.jpg',
             title : 'p3',
             description : 'asd',
+            Languages: ['Python'],
+            Frameworks : ['React'],
             links : [
                 {link : 'https://www.google.com/', icon : <YouTube/>},
                 {link : 'https://www.google.com/', icon : <GitHub/>},
@@ -78,10 +84,12 @@ const resumeData ={
             ]
         },
         {
-            tag : 'C++',
-            image: '',
+            tag : 'Web',
+            image: 'https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/09/c3/99.jpg',
             title : 'p4',
             description : 'asd',
+            Languages: ['C++'],
+            Frameworks : ['Bootstrap'],
             links : [
                 {link : 'https://www.google.com/', icon : <YouTube/>},
                 {link : 'https://www.google.com/', icon : <GitHub/>},

@@ -9,7 +9,7 @@ import { TimelineItem,TimelineContent } from '@material-ui/lab';
 
 const MyTimelineItem=({title,text,link})=>(
         <TimelineItem>
-        <MyTimelineSeparator />
+        {/* <MyTimelineSeparator /> */}
         <TimelineContent className='timeline_content'>
             {link ? (<Typography className='timelineItem_txt'><span>{title} : </span><a href={link} target="">{text}</a> </Typography>) :(
                 <Typography className='timelineItem_txt'><span>{title}  </span>{text} </Typography>

@@ -1,6 +1,6 @@
-.timeline{
+/* .timeline{
     padding: 0 !important;
-}
+} */
 
 .timeline .timeline_header{
     padding-top: 7px;
@@ -11,7 +11,8 @@
 }
 
 .timeline .MuiTimelineItem-root{
-    min-height: 0px;
+    min-height: 0px !important;
+    padding: 0px 25px !important; 
 }
 
 
@@ -26,7 +27,7 @@
     padding-bottom: 10px !important;
     margin-top: 20px !important;
     margin-bottom: 0px !important;
-    margin-left: -4px !important;
+    margin-left: -25px !important;
 }
 
 .timeline .timeline_dot{
@@ -42,7 +43,7 @@
 
 
 .timeline .timeline_dot_header > .MuiSvgIcon-root{
-    font-size: 20px !important;
+    font-size: 30px !important;
     color: darkslategray !important;
 }
 .timeline .separator_padding{

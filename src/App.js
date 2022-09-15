@@ -11,9 +11,10 @@ import {Routes} from 'react-router-dom';
 //import Intro from './components/intro';
 function App() {
   return (
-    <Container className='top_60'>
-      <Grid container spacing={2}>
-        <Grid item xs={12} sm={12} md={5} lg={4}>
+    // <Container className='top_60'>
+      <Grid container spacing={4} className='top_60'>
+        <Grid item xs={3} >
+          {/* sm={12} md={5} lg={4}> */}
           <Profile/>
           
         </Grid>
@@ -36,7 +37,7 @@ function App() {
           
         </Grid>
       </Grid>
-    </Container>
+    // </Container>
   );
 }
 

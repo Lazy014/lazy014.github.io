@@ -1,6 +1,29 @@
 .tag_tab {
-    color: #000 !important;
-    font-size: 12px !important; 
-    padding: 0px 20px !important;
-    min-width: 0px !important;
+  color: white !important;
+  font-size: 12px !important;
+  padding: 0px 20px !important;
+  min-width: 0px !important;
+}
+
+.filter_tag .MuiInputBase-root {
+  color: white !important;
+}
+
+.filter_tag .MuiChip-root {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  color: white !important;
+}
+
+.filter_tag .MuiChip-deleteIcon {
+  color: white !important;
+}
+
+.filter_tag .MuiIconButton-root {
+  /* background-color: rgba(255, 255, 255, .05) !important; */
+  color: black !important;
+}
+
+.projects .MuiPaper-root {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  color: white !important;
 }

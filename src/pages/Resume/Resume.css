@@ -1,5 +1,63 @@
-.sect
-{
+.sect {
   font-size: 40px !important;
   font-weight: 600 !important;
+}
+
+.timeline_education .MuiTimelineItem-root {
+  min-height: 0px !important;
+  /* padding: 6px 0px !important;  */
+}
+
+.timeline .MuiTimelineItem-missingOppositeContent:before {
+  display: none;
+}
+
+.timeline_education .timeline_dot_header {
+  color: cornsilk !important;
+  background-color: var(--main-colour) !important;
+  font-size: small !important;
+  padding: 10px !important;
+  /*padding-bottom: 10px !important; 
+  */
+  margin-top: 15px !important;
+  margin-bottom: 5px !important;
+  margin-left: -20px !important;
+}
+
+.timeline_education .MuiTimelineConnector-root {
+  background-color: #aaa !important;
+}
+
+.timeline_education .timeline_dot_header > .MuiSvgIcon-root {
+  font-size: 30px !important;
+  color: darkslategray !important;
+}
+
+.timeline_education .timeline_content {
+  padding-top: 25px !important;
+}
+
+.timeline_dot {
+  color: black !important;
+  border-color: var(--main-colour) !important;
+  padding: 4.5px !important;
+  /* margin-top: 3px !important; */
+}
+
+.samsung_logo img {
+  height: 40px !important;
+  width: auto !important;
+  border-radius: 5px !important;
+}
+
+.buet_logo img {
+  height: 40px !important;
+  width: auto !important;
+  border-radius: 40px !important;
+  background-color: white;
+}
+
+.years_spent {
+  margin-left: auto !important;
+  margin-right: 20px !important;
 }

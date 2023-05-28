@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.400ecb28.css",
-    "main.js": "/static/js/main.9113f254.js",
+    "main.css": "/static/css/main.6bc568d1.css",
+    "main.js": "/static/js/main.fb5f7cc1.js",
     "static/js/787.aeca62f9.chunk.js": "/static/js/787.aeca62f9.chunk.js",
     "static/media/6938839_3409297.jpg": "/static/media/6938839_3409297.964518f6852c9c68042d.jpg",
     "static/media/cappadocia-wallpaper-whatspaper-7.jpg": "/static/media/cappadocia-wallpaper-whatspaper-7.23074494576cd7a77984.jpg",
@@ -11,12 +11,12 @@
     "static/media/original-samsung-logo-10.png": "/static/media/original-samsung-logo-10.0e8bc24db3d9b5eb1adc.png",
     "static/media/Khulna-Zilla-School-Admission-Result.jpg": "/static/media/Khulna-Zilla-School-Admission-Result.66309938754504b50bd0.jpg",
     "index.html": "/index.html",
-    "main.400ecb28.css.map": "/static/css/main.400ecb28.css.map",
-    "main.9113f254.js.map": "/static/js/main.9113f254.js.map",
+    "main.6bc568d1.css.map": "/static/css/main.6bc568d1.css.map",
+    "main.fb5f7cc1.js.map": "/static/js/main.fb5f7cc1.js.map",
     "787.aeca62f9.chunk.js.map": "/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.400ecb28.css",
-    "static/js/main.9113f254.js"
+    "static/css/main.6bc568d1.css",
+    "static/js/main.fb5f7cc1.js"
   ]
 }

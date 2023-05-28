@@ -6,6 +6,7 @@ import React from "react";
 import "./Profile.css";
 import { GetAppRounded, Person } from "@material-ui/icons";
 import { TimelineItem, TimelineContent } from "@material-ui/lab";
+// import resume from "../../../public/";
 
 const MyTimelineItem = ({ title, text, link }) => (
   <TimelineItem>
@@ -55,7 +56,11 @@ const Profile = () => {
         </MyTimeline>
       </div>
       <div className="btn_container">
-        <MyButton title="Download Resume" icon={<GetAppRounded />} />
+        <MyButton
+          title="Download Resume"
+          icon={<GetAppRounded />}
+          downloadLink={"Tahmid_Anjum_CV.pdf"}
+        />
       </div>
     </div>
   );

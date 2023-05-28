@@ -63,6 +63,7 @@ const resumeData = {
     "Material-UI",
     "Bootstrap",
     "Express",
+    "PostgreSQL",
   ],
 
   education: [],
@@ -108,25 +109,25 @@ const resumeData = {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg",
       label: "C#",
-      proficiency: "8",
+      proficiency: "7",
     },
     {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/go-colored.svg",
       label: "Go",
-      proficiency: "8",
+      proficiency: "7",
     },
     {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/babel-colored-dark.svg",
       label: "Babel",
-      proficiency: "8",
+      proficiency: "7",
     },
     {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/webpack-colored.svg",
       label: "Webpack",
-      proficiency: "8",
+      proficiency: "7",
     },
     {
       imgsrc:
@@ -144,13 +145,13 @@ const resumeData = {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg",
       label: "TailwindCSS",
-      proficiency: "8",
+      proficiency: "7",
     },
     {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gatsby-colored.svg",
       label: "Gatsby",
-      proficiency: "8",
+      proficiency: "7",
     },
     {
       imgsrc:
@@ -168,31 +169,31 @@ const resumeData = {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg",
       label: "HTML5",
-      proficiency: "8",
+      proficiency: "9",
     },
     {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg",
       label: "CSS3",
-      proficiency: "8",
+      proficiency: "9",
     },
     {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg",
       label: "NodeJS",
-      proficiency: "8",
+      proficiency: "9",
     },
     {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored-dark.svg",
       label: "Express",
-      proficiency: "8",
+      proficiency: "9",
     },
     {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/oracle-colored.svg",
       label: "Oracle",
-      proficiency: "8",
+      proficiency: "9",
     },
     {
       imgsrc:
@@ -204,40 +205,55 @@ const resumeData = {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg",
       label: "MySQL",
-      proficiency: "8",
+      proficiency: "7",
     },
     {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg",
       label: "PostgreSQL",
-      proficiency: "8",
+      proficiency: "9",
     },
     {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg",
       label: "Heroku",
-      proficiency: "8",
+      proficiency: "7",
     },
     {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored-dark.svg",
       label: "Django",
-      proficiency: "8",
+      proficiency: "7",
     },
     {
       imgsrc:
         "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg",
       label: "Figma",
-      proficiency: "8",
+      proficiency: "7",
     },
   ],
   projects: [
     {
       tag: "Web",
       image: `require("../../assets/images/ProfilePic.jpg")`,
+      title: "Learning Management System",
+      description:
+        "Built a full stack web environment maintaining REST API principles with CRUD operations and JWT authentication to create an advanced learning platform.",
+      Languages: ["Javascript"],
+      Frameworks: ["React", "Node", "Express", "PostgreSQL", "Sequelize"],
+      Features: ["CRUD operations", "REST API", "JWT Authentication"],
+      links: [
+        { link: "https://www.google.com/", icon: <YouTube /> },
+        { link: "https://www.google.com/", icon: <GitHub /> },
+        { link: "https://www.google.com/", icon: <Language /> },
+      ],
+    },
+    {
+      tag: "Web",
+      image: `require("../../assets/images/ProfilePic.jpg")`,
       title: "Fantasy Premier League",
       description:
-        "Full stack web project which is a recreation of the famous fantasy genre game Fantasy Premier League",
+        "Full stack web project which is a recreation of the famous fantasy genre game Fantasy Premier League.",
       Languages: ["Javascript"],
       Frameworks: ["React", "Node", "Express", "MongoDB", "mongoose"],
       Features: ["CRUD operations", "REST API", "JWT Authentication"],
@@ -248,13 +264,14 @@ const resumeData = {
       ],
     },
     {
-      tag: "React",
+      tag: "M.L.",
       image: "",
-      title: "p2",
-      description: "asd",
-      Languages: ["Java"],
-      Frameworks: ["Node"],
-      Features: ["CRUD operations", "REST API", "JWT Authentication"],
+      title: "Anime Character Recognition",
+      description:
+        "Built a Machine Learning model which can differentiate and recognize individual anime characters. Implemented using Resnet and Few Shot Algorithm.",
+      Languages: ["Python"],
+      Frameworks: ["Pytorch", "Resnet", "Few Shot Learning"],
+      Features: [],
       links: [
         { link: "https://www.google.com/", icon: <YouTube /> },
         { link: "https://www.google.com/", icon: <GitHub /> },
@@ -262,14 +279,15 @@ const resumeData = {
       ],
     },
     {
-      tag: "Python",
+      tag: "Misc.",
       image:
         "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/09/c3/99.jpg",
-      title: "p3",
-      description: "asd",
-      Languages: ["Python"],
-      Frameworks: ["React"],
-      Features: ["CRUD operations", "REST API", "JWT Authentication"],
+      title: "Wi-Fi Password Cracking Attack",
+      description:
+        "Cracking Wi-Fi password using Deauthentication Attack and Dictionary Attack.",
+      Languages: ["C++", "Python"],
+      Frameworks: ["Libtins"],
+      Features: ["Deauthentication Attack", "Dictionary Attack"],
       links: [
         { link: "https://www.google.com/", icon: <YouTube /> },
         { link: "https://www.google.com/", icon: <GitHub /> },
@@ -281,10 +299,11 @@ const resumeData = {
       image: "../../assets/images/cappadocia-wallpaper-whatspaper-7.jpg",
       // "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/09/c3/99.jpg",
       title: "Line of Action",
-      description: "asd",
+      description:
+        "AI backed board game. UI implementation using pygame, AI logic implementation(Min-Max algo) in C++",
       Languages: ["C++", "Python", "Bash"],
       Frameworks: ["Pygame"],
-      Features: ["Minimax algo."],
+      Features: ["Min-Max algo."],
       links: [
         { link: "https://www.google.com/", icon: <YouTube /> },
         { link: "https://www.google.com/", icon: <GitHub /> },
@@ -300,6 +319,18 @@ const resumeData = {
         "Simple weather app using Android, Weather API & Google loactions",
       Languages: ["Java"],
       Frameworks: ["Weather API"],
+      Features: [],
+      link: "https://github.com/TahmidAnjum/Weather-App",
+    },
+    {
+      tag: "Misc.",
+      image: "../../assets/images/cappadocia-wallpaper-whatspaper-7.jpg",
+      // "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/09/c3/99.jpg",
+      title: "Rapid Roll",
+      description:
+        "A recreation of the game Rapid Roll. Microprocessor project built with ATmega32 microchip, hex inverters, decoders and IR sensors",
+      Languages: ["C"],
+      Frameworks: ["AVR"],
       Features: [],
       link: "https://github.com/TahmidAnjum/Weather-App",
     },

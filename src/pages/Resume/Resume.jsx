@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
     overflow: "hidden",
     fontSize: 12,
-    paddingTop: 15,
+    paddingTop: 25,
     fontWeight: "bold",
   },
 }));
@@ -123,7 +123,7 @@ const Resume = () => {
                   position: "relative",
                   backgroundColor: "rgba(255, 255, 255, 0.05)",
                 }}
-                onMouseEnter={() => handleMouseEnter(index)}
+                onMouseOver={() => handleMouseEnter(index)}
                 onMouseLeave={() => handleMouseLeave(index)}
               >
                 <Image

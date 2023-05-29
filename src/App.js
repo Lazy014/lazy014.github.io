@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Profile from "./components/Profile/Profile";
 import Portfolio from "./pages/Projects/Projects";
 import Resume from "./pages/Resume/Resume";
+import Contact from "./pages/Contact/Contact";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
 function App() {
@@ -34,6 +35,7 @@ function App() {
           >
             <Routes>
               <Route path="/projects" element={<Portfolio />} />
+              <Route path="/contactMe" element={<Contact />} />
               <Route path="/" element={<Resume />} />
             </Routes>
           </div>

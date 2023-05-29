@@ -261,80 +261,25 @@ const Resume = () => {
                         <Typography variant="h6" component="h2">
                           Bangladesh University of Engineering and Technology
                         </Typography>
-                        <p>Computer Science and Engieering</p>
+                        <p>BSc. in Computer Science and Engieering</p>
                       </div>
                       <div className="years_spent">
                         <p>Feb 2017 - May 2022</p>
                       </div>
                     </Stack>
                     <Typography>
-                      Because you need strength dfjlksjdfjksdjfljdslkfhskldhfjh
-                      sddkhfkhdjfdfgjkdhfjkdhfgjfdhgkjkdhgjkdfghkhdjfghfkd
+                      Completed my undergrad here. Learned topics likes{" "}
+                      <b>
+                        Object Oriented Programming, Design Patterns, Data
+                        Structures & Algorithms, Computer Architecture,
+                        Compilers, Operating Systems, Computer Networks,
+                        Computer Security, Computer Graphics, Artificial
+                        Intelligence, Graph Theory, High Performance Database
+                        System, Machine Learning, Pattern Recognition and
+                        Microprocessors, Microcontrollers & Embedded Systems
+                      </b>{" "}
+                      etc.
                     </Typography>
-                  </Paper>
-                </TimelineContent>
-              </TimelineItem>
-              <TimelineItem>
-                <TimelineSeparator>
-                  <TimelineConnector />
-                  <TimelineDot
-                    className="timeline_dot"
-                    variant="outlined"
-                  ></TimelineDot>
-                  <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent>
-                  <Paper elevation={3} className={classes.paper}>
-                    <Stack direction="horizontal" gap={3}>
-                      <figure className="buet_logo">
-                        <img
-                          src={require("../../assets/images/city_college.jpg")}
-                          alt=""
-                        />
-                      </figure>
-                      <div>
-                        <Typography variant="h6" component="h2">
-                          Govt. M. M. City College, Khulna
-                        </Typography>
-                        <p>Higher Secondary School Certificate in Science</p>
-                      </div>
-                      <div className="years_spent">
-                        <p>June 2014 - July 2016</p>
-                      </div>
-                    </Stack>
-                    <Typography>Because it&apos;s awesome!</Typography>
-                  </Paper>
-                </TimelineContent>
-              </TimelineItem>
-              <TimelineItem>
-                <TimelineSeparator>
-                  <TimelineConnector />
-                  <TimelineDot
-                    className="timeline_dot"
-                    variant="outlined"
-                  ></TimelineDot>
-                  <TimelineConnector className={classes.secondaryTail} />
-                </TimelineSeparator>
-                <TimelineContent>
-                  <Paper elevation={3} className={classes.paper}>
-                    <Stack direction="horizontal" gap={3}>
-                      <figure className="buet_logo">
-                        <img
-                          src={require("../../assets/images/Khulna-Zilla-School-Admission-Result.jpg")}
-                          alt=""
-                        />
-                      </figure>
-                      <div>
-                        <Typography variant="h6" component="h2">
-                          Khulna Zilla School, Khulna
-                        </Typography>
-                        <p>Secondary School Certificate in Science</p>
-                      </div>
-                      <div className="years_spent">
-                        <p>June 2014 - July 2016</p>
-                      </div>
-                    </Stack>
-                    <Typography>Because it&apos;s awesome!</Typography>
                   </Paper>
                 </TimelineContent>
               </TimelineItem>

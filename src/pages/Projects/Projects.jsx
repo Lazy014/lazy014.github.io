@@ -71,6 +71,16 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const pictures = [
+  require("../../assets/images/OBE.png"),
+  require("../../assets/images/FPL.png"),
+  require("../../assets/images/Anime.png"),
+  require("../../assets/images/Wi-Fi.png"),
+  require("../../assets/images/LineOfAction.png"),
+  require("../../assets/images/WeatherApp.png"),
+  require("../../assets/images/RapidRoll.png")
+];
+
 const Projects = () => {
   const [tabValue, setTabValue] = useState("All");
 
@@ -150,7 +160,7 @@ const Projects = () => {
         </Grid>
         <Grid item xs={12}>
           <Grid className="projects" container spacing={2}>
-            {resumeData.projects.map((project) => (
+            {resumeData.projects.map((project, index) => (
               <React.Fragment key={project.title}>
                 {(tabValue === project.tag || tabValue === "All") &&
                 isIncluded(project) ? (
@@ -158,7 +168,7 @@ const Projects = () => {
                     <Card className={classes.root}>
                       <CardMedia
                         className={classes.cover}
-                        image={require("../../assets/images/cappadocia-wallpaper-whatspaper-7.jpg")}
+                        image={pictures[index]}
                         title="Live from space album cover"
                       />
                       <div className={classes.details}>
@@ -200,7 +210,7 @@ const Projects = () => {
                           </div>
                           <Typography>{project.description}</Typography>
                         </CardContent>
-                        <Button
+                        {project.link ? <Button
                           href={project.link}
                           style={{
                             textDecoration: "none",
@@ -227,7 +237,7 @@ const Projects = () => {
                               Show in Github
                             </Typography>
                           </Stack>
-                        </Button>
+                        </Button> : null}
                       </div>
                     </Card>
                   </Grid>

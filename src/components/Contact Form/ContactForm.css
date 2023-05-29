@@ -1,0 +1,17 @@
+.MuiFormLabel-root {
+  color: white !important;
+}
+
+.MuiInputBase-root {
+  color: white !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  margin-top: 10px !important;
+  border-color: rgba(255, 255, 255, 0.13) !important;
+  height: 50px !important;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.43) !important;
+}

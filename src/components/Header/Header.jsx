@@ -48,8 +48,12 @@ const Header = (prop) => {
               {resumeData.socials[key].icon}
             </a>
           ))}
-          <MyButton title={"Email"} icon={<Telegram />} />
         </div>
+        <Nav>
+          <Nav.Link as={NavLink} to="/contactMe">
+            <MyButton title={"Contact Me"} icon={<Telegram />} />
+          </Nav.Link>
+        </Nav>
       </Navbar.Collapse>
     </Navbar>
   );

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0a7418a.css",
+    "main.css": "/static/css/main.586abd4a.css",
     "main.js": "/static/js/main.d3628161.js",
     "static/js/787.aeca62f9.chunk.js": "/static/js/787.aeca62f9.chunk.js",
     "static/media/Wi-Fi.png": "/static/media/Wi-Fi.a6b259388660d94640ff.png",
@@ -15,12 +15,12 @@
     "static/media/original-samsung-logo-10.png": "/static/media/original-samsung-logo-10.0e8bc24db3d9b5eb1adc.png",
     "static/media/LineOfAction.png": "/static/media/LineOfAction.ad0bd754e9ed12ca0e6b.png",
     "index.html": "/index.html",
-    "main.f0a7418a.css.map": "/static/css/main.f0a7418a.css.map",
+    "main.586abd4a.css.map": "/static/css/main.586abd4a.css.map",
     "main.d3628161.js.map": "/static/js/main.d3628161.js.map",
     "787.aeca62f9.chunk.js.map": "/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0a7418a.css",
+    "static/css/main.586abd4a.css",
     "static/js/main.d3628161.js"
   ]
 }

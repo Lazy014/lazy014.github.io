@@ -18,13 +18,18 @@
   font-size: large;
   margin-right: auto !important;
   margin-left: 0px !important;
-  /* border-top-left-radius: 10px ;
+  /* bheader_link_activeorder-top-left-radius: 10px ;
     border-bottom-left-radius: inherit ; */
 }
 
 .header_home > .MuiSvgIcon-root {
   font-size: 30px !important;
   color: black !important;
+}
+
+.navbar-toggler {
+  /* border-color: rgba(255,255,255,1) !important; */
+  background-color: var(--main-colour) !important;
 }
 
 .header .header_nav {

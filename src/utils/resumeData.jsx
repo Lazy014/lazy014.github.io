@@ -49,8 +49,8 @@ const resumeData = {
       icon: <Facebook />,
     },
     Github: {
-      Link: "https://github.com/Lazy014",
-      title: "Lazy014",
+      Link: "https://github.com/TahmidAnjum",
+      title: "TahmidAnjum",
       icon: <GitHub />,
     },
     LinkedIn: {

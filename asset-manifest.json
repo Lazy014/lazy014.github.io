@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.586abd4a.css",
-    "main.js": "/static/js/main.8e7e591a.js",
+    "main.css": "/static/css/main.b5cd9c58.css",
+    "main.js": "/static/js/main.f34394c1.js",
     "static/js/787.aeca62f9.chunk.js": "/static/js/787.aeca62f9.chunk.js",
     "static/media/Wi-Fi.png": "/static/media/Wi-Fi.a6b259388660d94640ff.png",
     "static/media/Anime.png": "/static/media/Anime.2db6e6b457a3bc23ace9.png",
-    "static/media/6938839_3409297.jpg": "/static/media/6938839_3409297.964518f6852c9c68042d.jpg",
     "static/media/FPL.png": "/static/media/FPL.26b7aefe0bec67a64364.png",
     "static/media/OBE.png": "/static/media/OBE.befe2d8e6ded7fa7d123.png",
     "static/media/WeatherApp.png": "/static/media/WeatherApp.b90571907a866e5d3aa4.png",
@@ -15,12 +14,12 @@
     "static/media/original-samsung-logo-10.png": "/static/media/original-samsung-logo-10.0e8bc24db3d9b5eb1adc.png",
     "static/media/LineOfAction.png": "/static/media/LineOfAction.ad0bd754e9ed12ca0e6b.png",
     "index.html": "/index.html",
-    "main.586abd4a.css.map": "/static/css/main.586abd4a.css.map",
-    "main.8e7e591a.js.map": "/static/js/main.8e7e591a.js.map",
+    "main.b5cd9c58.css.map": "/static/css/main.b5cd9c58.css.map",
+    "main.f34394c1.js.map": "/static/js/main.f34394c1.js.map",
     "787.aeca62f9.chunk.js.map": "/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.586abd4a.css",
-    "static/js/main.8e7e591a.js"
+    "static/css/main.b5cd9c58.css",
+    "static/js/main.f34394c1.js"
   ]
 }

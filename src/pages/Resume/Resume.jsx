@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import SchoolSharpIcon from "@material-ui/icons/SchoolSharp";
 import WorkSharp from "@material-ui/icons/WorkSharp";
+import BorderColorSharpIcon from '@material-ui/icons/BorderColorSharp';
 import resumeData from "../../utils/resumeData";
 import { makeStyles } from "@material-ui/core/styles";
 import Timeline from "@material-ui/lab/Timeline";
@@ -94,7 +95,7 @@ const Resume = () => {
   console.log("root : ", hover);
   return (
     <>
-      <Grid container className="section pad_30">
+      {/* <Grid container className="section pad_30">
         <Grid item className="section_title">
           <Typography variant="h5">
             <span></span>About Me
@@ -103,7 +104,7 @@ const Resume = () => {
         <Grid item xs={12} className="section_text pad_10">
           <Typography>{resumeData.aboutMe}</Typography>
         </Grid>
-      </Grid>
+      </Grid> */}
 
       <Grid container className="section pad_30">
         <Grid item className="section_title">
@@ -152,81 +153,8 @@ const Resume = () => {
             <span></span>Qualifications
           </Typography>
         </Grid>
+
         <Grid container xs={12}>
-          <Grid item xs={12} dx>
-            <Timeline className="timeline_education">
-              <TimelineItem className="timeline_firstItem">
-                <TimelineSeparator>
-                  <TimelineDot className="timeline_dot_header">
-                    <WorkSharp />
-                  </TimelineDot>
-                </TimelineSeparator>
-                <TimelineContent className="timeline_content">
-                  <Typography variant="h5">Work Experience</Typography>
-                </TimelineContent>
-              </TimelineItem>
-              <TimelineItem>
-                <TimelineSeparator>
-                  <TimelineConnector />
-                  <TimelineDot
-                    className="timeline_dot"
-                    variant="outlined"
-                  ></TimelineDot>
-                  <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent>
-                  <Paper elevation={3} className={classes.paper}>
-                    <Stack direction="horizontal" gap={3}>
-                      <figure className="samsung_logo">
-                        <img
-                          src={require("../../assets/images/original-samsung-logo-10.png")}
-                          alt=""
-                        />
-                      </figure>
-                      <div>
-                        <Typography variant="h6" component="h2">
-                          Samsung R&D Institute, Bangladesh.
-                        </Typography>
-                        <p>Software Engineeer</p>
-                      </div>
-                      <div className="years_spent">
-                        <p>June 2022 - Present</p>
-                      </div>
-                    </Stack>
-                    <Typography>
-                      <br /> Currently a part of the Watch Notifications Team.
-                      Main focus of work is Android Development in Java.
-                    </Typography>
-                    <Typography className="top_10">
-                      <br />A brief summay of what I have done till now :
-                      <ul>
-                        <li>
-                          Implemented new features in Samsung Galaxy Watch
-                          Series(Watch 4, Watch 5 and upcoming Watch 6)
-                          enhancing user experience and meeting user demands.
-                        </li>
-                        <li>
-                          Wrote Unit test cases in JUNIT4 covering around 4,000
-                          lines (35%-40%) of our source code ensuring the
-                          correctness and quality of our code.
-                        </li>
-                        <li>
-                          Refactored existing source code maintaining SOLID
-                          principles and in TDD approach making the code more
-                          readable, scalable and testable.
-                        </li>
-                        <li>
-                          Fixed bugs that were found by us or reported to us by
-                          QA team by analyzing the code base, finding the root
-                          cause and coming up with a proper solution.
-                        </li>
-                      </ul>
-                    </Typography>
-                  </Paper>
-                </TimelineContent>
-              </TimelineItem>
-            </Timeline>
-          </Grid>
           <Grid item xs={12}>
             <Timeline className="timeline_education">
               <TimelineItem className="timeline_firstItem">
@@ -285,6 +213,147 @@ const Resume = () => {
               </TimelineItem>
             </Timeline>
           </Grid>
+          
+          <Grid item xs={12} dx>
+            <Timeline className="timeline_education">
+              <TimelineItem className="timeline_firstItem">
+                <TimelineSeparator>
+                  <TimelineDot className="timeline_dot_header">
+                    <BorderColorSharpIcon/>
+                  </TimelineDot>
+                </TimelineSeparator>
+                <TimelineContent className="timeline_content">
+                  <Typography variant="h5">Research Experience</Typography>
+                </TimelineContent>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineConnector />
+                  <TimelineDot
+                    className="timeline_dot"
+                    variant="outlined"
+                  ></TimelineDot>
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <Paper elevation={3} className={classes.paper}>
+                    <Stack direction="horizontal" gap={3}>
+                      <figure className="samsung_logo">
+                        <imgy
+                          src={require("../../assets/images/original-samsung-logo-10.png")}
+                          alt=""
+                        />
+                      </figure>
+                      <div>
+                        <Typography variant="h6" component="h2">
+                          An Approach of Adaptive E‑Learning Activities for Computer Programming Using HSCICT‑Online.
+                        </Typography>
+                        <p>Bangladesh University of Engineering and Technology, Dhaka.</p>
+                      </div>
+                      <div className="years_spent">
+                        <p>2021 - 2022</p>
+                      </div>
+                    </Stack>
+                    {/* <Typography>
+                      <br /> Currently a part of the Watch Notifications Team.
+                      Main focus of work is Android Development in Java.
+                    </Typography> */}
+                    <Typography className="top_10">
+                      {/* <br />A brief summay of what I have done till now : */}
+                      <ul>
+                        <li>
+                        We tried to combine adaptive learning methodologies with e-learning activities in our 'HSCICT' platform to introduce more flexibility, interaction, ease of use, effectiveness and efficiency in learning and teaching computer programming..
+                        </li>
+                        <li>
+                        Classified the contents of C programming language on the basis of ‘Revised Bloom’s Taxonomy’, compared the book with the platform by evaluating those contents and based on the results, improved the contents in our platform.
+                        </li>
+                        <li>
+                        Held a workshop to evaluate the performance of the students and took their feedback to asses and further better our content and come up with better methods of evaluating their performance.
+                        </li>
+                      </ul>
+                    </Typography>
+                  </Paper>
+                </TimelineContent>
+              </TimelineItem>
+            </Timeline>
+          </Grid>
+
+          <Grid item xs={12} dx>
+            <Timeline className="timeline_education">
+              <TimelineItem className="timeline_firstItem">
+                <TimelineSeparator>
+                  <TimelineDot className="timeline_dot_header">
+                    <WorkSharp />
+                  </TimelineDot>
+                </TimelineSeparator>
+                <TimelineContent className="timeline_content">
+                  <Typography variant="h5">Work Experience</Typography>
+                </TimelineContent>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineConnector />
+                  <TimelineDot
+                    className="timeline_dot"
+                    variant="outlined"
+                  ></TimelineDot>
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <Paper elevation={3} className={classes.paper}>
+                    <Stack direction="horizontal" gap={3}>
+                      <figure className="samsung_logo">
+                        <img
+                          src={require("../../assets/images/original-samsung-logo-10.png")}
+                          alt=""
+                        />
+                      </figure>
+                      <div>
+                        <Typography variant="h6" component="h2">
+                          Samsung R&D Institute, Bangladesh.
+                        </Typography>
+                        <p>Software Engineeer</p>
+                      </div>
+                      <div className="years_spent">
+                        <p>June 2022 - September 2023</p>
+                      </div>
+                    </Stack>
+                    <Typography>
+                      <br /> Was a part of the Watch Notifications Team.
+                      Main focus of work was Android Development in Java.
+                    </Typography>
+                    <Typography className="top_10">
+                      <br />A brief summay of what I have done till now :
+                      <ul>
+                        <li>
+                          Implemented new features in Samsung Galaxy Watch
+                          Series(Watch 4, Watch 5 and upcoming Watch 6)
+                          enhancing user experience and meeting user demands.
+                        </li>
+                        <li>
+                          Wrote Unit test cases in JUNIT4 covering around 4,000
+                          lines (35%-40%) of our source code ensuring the
+                          correctness and quality of our code.
+                        </li>
+                        <li>
+                          Refactored existing source code maintaining SOLID
+                          principles and in TDD approach making the code more
+                          readable, scalable and testable.
+                        </li>
+                        <li>
+                          Fixed bugs that were found by us or reported to us by
+                          QA team by analyzing the code base, finding the root
+                          cause and coming up with a proper solution.
+                        </li>
+                      </ul>
+                    </Typography>
+                  </Paper>
+                </TimelineContent>
+              </TimelineItem>
+            </Timeline>
+          </Grid>
+          
+          
         </Grid>
       </Grid>
     </>

@@ -58,11 +58,15 @@
   margin-right: 0px !important;
   padding: 0;
   margin-left: auto !important;
+  margin-right: 15px !important;
   display: inline !important;
 }
 
+.header_icons > a {
+  margin-left: 15px !important;
+}
+
 .header_icons > a > .MuiSvgIcon-root {
-  margin-right: 15px !important;
   font-size: 25px !important;
   color: white !important;
 

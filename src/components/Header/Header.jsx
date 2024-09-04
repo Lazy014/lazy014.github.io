@@ -5,11 +5,12 @@ import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Header.css";
 
-import { HomeRounded, Telegram } from "@material-ui/icons";
+import { HomeRounded  /*, Telegram*/ } from "@material-ui/icons";
 
 import resumeData from "../../utils/resumeData";
 
-import MyButton from "../Button/MyButton";
+// import MyButton from "../Button/MyButton";
+import { Link } from "@material-ui/core";
 
 const Header = (prop) => {
   const pathname = useLocation().pathname;
@@ -44,16 +45,14 @@ const Header = (prop) => {
         </Nav>
         <div className="header_icons">
           {Object.keys(resumeData.socials).map((key) => (
-            <a key={key} href={resumeData.socials[key].Link}>
-              {resumeData.socials[key].icon}
-            </a>
+              <Link key={key} href={resumeData.socials[key].Link}>{resumeData.socials[key].icon}</Link>
           ))}
         </div>
-        <Nav>
+        {/* <Nav>
           <Nav.Link as={NavLink} to="/contactMe">
             <MyButton title={"Contact Me"} icon={<Telegram />} />
           </Nav.Link>
-        </Nav>
+        </Nav> */}
       </Navbar.Collapse>
     </Navbar>
   );

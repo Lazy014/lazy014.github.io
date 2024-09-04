@@ -5,12 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-repeat:no-repeat !important;
+  background-attachment: fixed !important;
+  background: linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 93, 134) 56.2%, rgb(36, 49, 54) 89%);
+  height: fit-content !important;
+  min-height: 100vh !important;
+  overflow-x: hidden !important;
   /* background: #ccc ; */
-  /* background: radial-gradient( white,#e0e0e0);  */
+  /* background: radial-gradient(ellipse at top, #0f044de7, transparent),
+            radial-gradient(ellipse at bottom, #426d8a, transparent); */
+  /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+      linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+      linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
+  /* background: radial-gradient( blue,#e0e0e0);  */
   /* background-attachment: fixed; */
-  background-image: url("./assets/images/6938839_3409297.jpg");
+  /* background-image: url("./assets/images/6938839_3409297.jpg"); */
   /* background-color : #000049 !important; */
-  overflow-x: hidden;
 }
 
 code {

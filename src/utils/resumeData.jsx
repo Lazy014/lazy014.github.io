@@ -11,7 +11,6 @@ const Discord = (props) => (
     xmlns="http://www.w3.org/2000/svg"
     width={16}
     height={16}
-    style={{ marginRight: "15px" }}
     fill="white"
     className="bi bi-discord"
     {...props}
@@ -25,7 +24,6 @@ const Leetcode = (props) => (
     width={24}
     height={24}
     fill="white"
-    style={{ marginRight: "25px" }}
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
@@ -70,7 +68,7 @@ const resumeData = {
     },
   },
 
-  tags: ["All", "Web", "A.I.", "M.L.", "Android", "Misc."],
+  tags: ["All", "Web", "A.I.", "M.L.", "Android", "Security", "Hardware"],
   langNframe: [
     "C++",
     "Java",
@@ -260,7 +258,7 @@ const resumeData = {
       Languages: ["Javascript"],
       Frameworks: ["React", "Node", "Express", "PostgreSQL", "Sequelize"],
       Features: ["CRUD operations", "REST API", "JWT Authentication"],
-      link: "https://github.com/TahmidAnjum/Software_Project"
+      // link: "https://github.com/TahmidAnjum/Software_Project"
     },
     {
       tag: "Web",
@@ -271,7 +269,7 @@ const resumeData = {
       Languages: ["Javascript"],
       Frameworks: ["React", "Node", "Express", "MongoDB", "mongoose"],
       Features: ["CRUD operations", "REST API", "JWT Authentication"],
-      link: "https://github.com/TahmidAnjum/Fantasy-Premier-League",
+      // link: "https://github.com/TahmidAnjum/Fantasy-Premier-League",
     },
     {
       tag: "M.L.",
@@ -282,10 +280,10 @@ const resumeData = {
       Languages: ["Python"],
       Frameworks: ["Pytorch", "Resnet", "Few Shot Learning"],
       Features: [],
-      link: "https://github.com/TahmidAnjum/Anime-Character-Recognition",
+      // link: "https://github.com/TahmidAnjum/Anime-Character-Recognition",
     },
     {
-      tag: "Misc.",
+      tag: "Security",
       image:
         "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/09/c3/99.jpg",
       title: "Wi-Fi Password Cracking Attack",
@@ -310,7 +308,7 @@ const resumeData = {
       Languages: ["C++", "Python", "Bash"],
       Frameworks: ["Pygame"],
       Features: ["Min-Max algo."],
-      link : "https://github.com/TahmidAnjum/Line-of-Action",
+      // link : "https://github.com/TahmidAnjum/Line-of-Action",
     },
     {
       tag: "Android",
@@ -322,10 +320,10 @@ const resumeData = {
       Languages: ["Java"],
       Frameworks: ["Weather API"],
       Features: [],
-      link: "https://github.com/TahmidAnjum/Weather-App",
+      // link: "https://github.com/TahmidAnjum/Weather-App",
     },
     {
-      tag: "Misc.",
+      tag: "Hardware",
       image: "../../assets/images/cappadocia-wallpaper-whatspaper-7.jpg",
       // "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/09/c3/99.jpg",
       title: "Rapid Roll",
@@ -334,7 +332,7 @@ const resumeData = {
       Languages: ["C"],
       Frameworks: ["AVR"],
       Features: [],
-      link: "https://github.com/TahmidAnjum/Weather-App",
+      // link: "https://github.com/TahmidAnjum/Weather-App",
     },
   ],
 };

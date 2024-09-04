@@ -1,10 +1,10 @@
 import { Typography } from "@material-ui/core";
 import MyTimeline from "../Timeline/MyTimeline";
-import MyButton from "../Button/MyButton";
+// import MyButton from "../Button/MyButton";
 import resumeData from "../../utils/resumeData";
 import React from "react";
 import "./Profile.css";
-import { GetAppRounded, Person } from "@material-ui/icons";
+import { /*GetAppRounded,*/ Person } from "@material-ui/icons";
 import { TimelineItem, TimelineContent } from "@material-ui/lab";
 // import resume from "../../../public/";
 
@@ -55,13 +55,13 @@ const Profile = () => {
           ))}
         </MyTimeline>
       </div>
-      <div className="btn_container">
+      {/* <div className="btn_container">
         <MyButton
           title="Download Resume"
           icon={<GetAppRounded />}
           downloadLink={"Tahmid_Anjum_CV.pdf"}
         />
-      </div>
+      </div> */}
     </div>
   );
 };
